@@ -1,8 +1,8 @@
-const MyComponent4 = props => {
+const MyComponent4 = props2 => {
 
     return  <div style = {{fontSize: '45px'}}> 
     안녕하세요props
-    {props.className}입니다props
+    {props2.className}입니다props
     </div>
 }
 
