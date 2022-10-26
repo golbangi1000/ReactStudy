@@ -1,0 +1,23 @@
+/* 
+.react는 className이 react인것을 나타냄
+react은 아무거나 됨.
+*/
+.react {
+    background-color: black;
+    color: blue;
+    font-size: 42px;
+    padding: 16;
+    
+}
+
+
+/*
+컴포넌트에 쓸때는 component의 return값에 <div><div/>가 들어있으면 거기다가 className을 적어야됨
+*/
+.react2{
+    background-color: orange;
+    color: red;
+    font-size: 42px;
+    padding: 16;
+
+}

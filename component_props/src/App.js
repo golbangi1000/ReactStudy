@@ -2,24 +2,30 @@ import logo from './logo.svg';
 import './App.css';
 import MyComponent from './MyComponent';
 import MyComponent4 from './MyComponent4';
+import MyComponent5 from './MyComponent5';
+import MyComponent6 from './MyComponent6';
+
+import './App2.css';
+
+
+
 function App() {
 
-  const style = {
-    backgroundColor: 'black',
-    color: 'blue',
-    fontSize: '42px',
-    padding: 60
-  }
+
   const name = "리액트";
   return (
     <div>
-    <div className="App" style = {style}>
+    <div className="react">
      {name}
     </div>
     
-    <MyComponent />
+    <MyComponent  />
 
-    <MyComponent4 className = "리액트"/>
+    <MyComponent4/>
+
+    <MyComponent5/>
+
+    <MyComponent6/>
     </div>
   );
 }
